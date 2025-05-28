@@ -1,0 +1,18 @@
+name: PartyF
+main: orgllk.partyf.Main
+version: 1.0.0
+api-version: 1.13
+authors: [orgllk]
+description: Party and Friends system like Jartex, Bungee/MySQL support.
+commands:
+  party:
+    description: Party system main command
+    usage: /party <subcommand>
+    aliases: [p]
+  friend:
+    description: Friend system main command
+    usage: /friend <subcommand>
+    aliases: [f]
+  fmsg:
+    description: Message a friend
+    usage: /fmsg <friend> <message>
